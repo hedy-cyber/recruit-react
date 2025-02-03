@@ -15,6 +15,7 @@ do the initial module install:
                npm install
 
 To run the app:
+
     docker run --rm -it \
                -v $(pwd)/app:/app -u `id -u`:`id -g` \
                -w /app -p 5173:5173 \
